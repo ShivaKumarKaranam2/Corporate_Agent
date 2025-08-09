@@ -1,0 +1,6 @@
+.env
+*env
+my_env/
+
+outputs/
+temp/
