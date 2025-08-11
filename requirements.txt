@@ -23,6 +23,7 @@ pypdf
 # Utilities
 tiktoken
 docx2txt
+docxcompose
 
 python-dotenv
 

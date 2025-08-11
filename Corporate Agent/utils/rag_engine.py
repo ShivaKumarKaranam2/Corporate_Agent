@@ -12,7 +12,7 @@ load_dotenv()
 Settings.llm = None
 
 # Path to persisted FAISS store
-PERSIST_DIR = r"C:/Users/karan/OneDrive/Documents/Corporate_Agent/ai-engineer-task-ShivaKumarKaranam2/Corporate Agent/utils/vector_store"
+PERSIST_DIR = r"Corporate Agent/utils/vector_store"
 EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Gemini API key and model info

@@ -2,13 +2,7 @@ import json
 import os
 from datetime import datetime
 
-def generate_summary_json(
-    filename: str,
-    doc_type: str,
-    checklist_result: dict,
-    red_flags: list[dict],
-    save_path: str = "outputs"
-) -> str:
+def generate_summary_json(filename, doc_type, checklist_result, red_flags, save_path="outputs", content="")-> str:
     """
     Generates a structured summary JSON of the review result.
 
